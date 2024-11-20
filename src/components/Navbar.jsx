@@ -34,14 +34,14 @@ function Navbar() {
                    </div> 
                 </div>
                 {mobileDrawer && (
-                    <div className="right-0 z-20  w-full p-12 flex flex-col justify-center items-center lg:hidden backdrop-blur-lg">
+                    <div className="right-0 z-20  w-full py-12 flex flex-col justify-center items-center lg:hidden backdrop-blur-lg">
                         <ul>
                         <a href="" className="py-4 text-lg"><li>Home</li></a>
                         <a href="" className="py-4 text-lg"><li>Workflow</li></a>
                         <a href="" className="py-4 text-lg"><li>Pricing</li></a>
                         <a href="" className="py-4 text-lg"><li>Testimonials</li></a>
                         </ul>
-                        <div className="flex space-x-6 py-6">
+                        <div className="flex space-x-6 py-6 flex-wrap">
                         <button className="py-2 px-3 border rounded-md bg-[#28282c]">Sign up</button>
                         <button className="py-2 px-3 border rounded-md text-black bg-white">Create an Account</button>
                         </div>

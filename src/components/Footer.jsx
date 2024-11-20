@@ -3,7 +3,7 @@
 function Footer() {
     return (
         <div className="container mx-auto lg:px-24 px-10 mt-10 ">
-        <div className="lg:flex mb-5">
+        <div className="lg:flex mb-5 pt-10 border-t">
             <div className="w-full lg:w-2/3">
                 <a href="" className="mb-12">
                     <h1 className="text-3xl font-bold ">Devo<span className="text-black bg-white">rhythm</span></h1>

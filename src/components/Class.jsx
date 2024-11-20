@@ -3,7 +3,7 @@ import{ Code, ChartColumnBig, PencilRuler, BrainCircuit } from "lucide-react"
 
 function Class() {
     return(
-        <div className="container mx-auto lg:px-24 px-10 lg:flex lg:flex-row mt-6 min-h-[550px]">
+        <div className="container mx-auto lg:px-24 px-10 lg:flex lg:flex-row mt-6 min-h-[550px]" id="class">
             <div className="lg:w-2/3 w-full">
                 <h1 className="font-semibold lg:font-bold lg:text-4xl text-xl mb-6">🔴 Live Classes + Placement Guidance</h1>
                 <div className="lg:w-1/3 w-full mt-16  lg:hidden"><img src={Classes} alt="" /></div>
@@ -34,7 +34,7 @@ function Class() {
                     </div>
                 </div>
             </div>
-            <div className="lg:w-1/3 w-full mt-16 lg:flex hidden"><img src={Classes} alt="" /></div>
+            <div className="lg:w-1/3 w-full lg:flex hidden"><img src={Classes} alt="" /></div>
         </div>
     );
 }

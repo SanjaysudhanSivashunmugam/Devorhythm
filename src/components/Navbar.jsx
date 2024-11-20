@@ -1,5 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import {Link} from "react-scroll";
 
 function Navbar() {
 
@@ -18,10 +19,10 @@ function Navbar() {
                         <h1 className="text-3xl font-bold">Devo<span className="text-black bg-white">rhythm</span></h1>
                     </div>
                     <ul className="hidden lg:flex ml-14 space-x-12">
-                        <a href=""><li>Home</li></a>
-                        <a href=""><li>Workflow</li></a>
-                        <a href=""><li>Pricing</li></a>
-                        <a href=""><li>Testimonials</li></a>
+                        <li className="cursor-pointer"><Link to="hero" smooth={true} offset={-120} duration={500}>Home</Link></li>
+                        <li className="cursor-pointer"><Link to="fea" smooth={true} offset={-70} duration={500}>Features</Link></li>
+                        <li className="cursor-pointer"><Link to="class" smooth={true} offset={-110} duration={500}>Classes</Link></li>
+                        <li className="cursor-pointer"><Link to="test" smooth={true} offset={-70} duration={500}>Testimonials</Link></li>
                     </ul>
                     <div className="hidden lg:flex justify-center items-center space-x-12">
                         <button className="py-2 px-3 border rounded-md bg-[#243b55]">Sign up</button>
@@ -36,10 +37,10 @@ function Navbar() {
                 {mobileDrawer && (
                     <div className="right-0 z-20  w-full py-12 flex flex-col justify-center items-center lg:hidden backdrop-blur-lg">
                         <ul>
-                        <a href="" className="py-4 text-lg"><li>Home</li></a>
-                        <a href="" className="py-4 text-lg"><li>Workflow</li></a>
-                        <a href="" className="py-4 text-lg"><li>Pricing</li></a>
-                        <a href="" className="py-4 text-lg"><li>Testimonials</li></a>
+                       <li className="cursor-pointer py-2"><Link to="hero" smooth={true} offset={-120} duration={500}>Home</Link></li>
+                        <li className="cursor-pointer py-2"><Link to="fea" smooth={true} offset={-70} duration={500}>Features</Link></li>
+                        <li className="cursor-pointer py-2"><Link to="class" smooth={true} offset={-110} duration={500}>Classes</Link></li>
+                        <li className="cursor-pointer py-2"><Link to="test" smooth={true} offset={-70} duration={500}>Testimonials</Link></li>
                         </ul>
                         <div className="flex space-x-6 py-6 flex-wrap">
                         <button className="py-2 px-3 border rounded-md bg-[#243b55]">Sign up</button>

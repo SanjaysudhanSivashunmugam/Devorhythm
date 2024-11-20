@@ -3,9 +3,9 @@ import video_2 from "../assets/video_2.mp4";
 
 function Hero() {
     return (
-        <div className="container mx-auto px-10 lg:px-24 lg:mt-32 mt-20">
+        <div className="container mx-auto px-10 lg:px-24 lg:mt-32 mt-20" id="hero">
             <div className="flex flex-col mt-20 sm:mt-6 items-center ">
-                <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
+                <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide font-semibold">
                     A Virtual Classroom for the GenZ
                 </h1>
                 <p className="mt-10 lg:text-lg text-center max-w-4xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat voluptatibus iusto autem. Reprehenderit libero aliquid unde expedita excepturi dolor asperiores debitis, doloribus minus doloremque delectus perferendis similique, et aut accusantium.</p>

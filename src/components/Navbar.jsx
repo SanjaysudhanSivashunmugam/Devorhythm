@@ -24,7 +24,7 @@ function Navbar() {
                         <a href=""><li>Testimonials</li></a>
                     </ul>
                     <div className="hidden lg:flex justify-center items-center space-x-12">
-                        <button className="py-2 px-3 border rounded-md bg-[#28282c]">Sign up</button>
+                        <button className="py-2 px-3 border rounded-md bg-[#243b55]">Sign up</button>
                         <button className="py-2 px-3 border rounded-md bg-white text-black">Create an Account</button>
                     </div>
                    <div className="lg:hidden md:flex flex-col justify-end">
@@ -42,7 +42,7 @@ function Navbar() {
                         <a href="" className="py-4 text-lg"><li>Testimonials</li></a>
                         </ul>
                         <div className="flex space-x-6 py-6 flex-wrap">
-                        <button className="py-2 px-3 border rounded-md bg-[#28282c]">Sign up</button>
+                        <button className="py-2 px-3 border rounded-md bg-[#243b55]">Sign up</button>
                         <button className="py-2 px-3 border rounded-md text-black bg-white">Create an Account</button>
                         </div>
                     </div>

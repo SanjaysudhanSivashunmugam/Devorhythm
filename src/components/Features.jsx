@@ -9,12 +9,12 @@ function Features(){
                 <h2 className="text-xl  lg:text-6xl mt-6 lg:mt-14 tracking-wide">Discover and learn cutting-edge technologies online from the comfort of your home</h2>
             </div>
             <div className="flex flex-wrap mt-6 lg:mt-14 justify-between ">
-            <Card  heading="Learn in-demand Skills" para=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, ab aliquid. Possimus quaerat rerum ut distinctio?"/>
-            <Card  heading="Learn in-demand Skills" para=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, ab aliquid. Possimus quaerat rerum ut distinctio?"/>
-            <Card  heading="Learn in-demand Skills" para=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, ab aliquid. Possimus quaerat rerum ut distinctio?"/>
-            <Card  heading="Learn in-demand Skills" para=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, ab aliquid. Possimus quaerat rerum ut distinctio?"/>
-            <Card  heading="Learn in-demand Skills" para=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, ab aliquid. Possimus quaerat rerum ut distinctio?"/>
-            <Card  heading="Learn in-demand Skills" para=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, ab aliquid. Possimus quaerat rerum ut distinctio?"/>
+            <Card i="1"  heading="Personalized Learning Paths" para="Provide tailored course recommendations and content based on the user’s learning style, pace, and goals, ensuring a customized educational journey."/>
+            <Card i="2"  heading="Gamification" para="Incorporate elements like badges, leaderboards, and rewards to boost engagement and motivation among learners while making learning fun and interactive."/>
+            <Card i="3"  heading="Live Classes and Webinars" para="Offer real-time interaction with educators through live sessions, enabling students to ask questions, engage in discussions, and clarify doubts instantly."/>
+            <Card i="4"  heading="Interactive Assessments" para="Include quizzes, assignments, and simulations with instant feedback to reinforce learning and track progress effectively."/>
+            <Card i="5"  heading="AI-Powered Analytics" para="Use AI to analyze student performance, identify strengths and weaknesses, and provide actionable insights to improve learning outcomes."/>
+            <Card i="6"  heading="Multi-Language Support" para="Enable users to access courses in their preferred language, breaking barriers for non-native speakers and fostering inclusivity."/>
             </div>
             
            

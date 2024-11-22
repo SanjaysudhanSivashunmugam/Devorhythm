@@ -12,7 +12,7 @@ function Navbar() {
 
 
     return (
-        <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg">
+        <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg ">
             <div className="container mx-auto relative text-sm lg:px-24 px-10">
                 <div className="flex justify-between items-center">
                     <div className="flex-item-center flex-shrink-0">

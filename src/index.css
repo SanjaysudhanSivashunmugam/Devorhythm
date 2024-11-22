@@ -4,6 +4,8 @@
 
 body{
     /* background: linear-gradient(to right, #434343 0%, black 100%); */
-    background: linear-gradient(109.6deg, rgb(20, 30, 48) 11.2%, rgb(36, 59, 85) 91.1%);
+    /* background: linear-gradient(109.6deg, rgb(20, 30, 48) 11.2%, rgb(36, 59, 85) 91.1%); */
     /* background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%); */
+    background: rgb(9,9,121);
+background: linear-gradient(144deg, rgba(9,9,121,1) 19%, rgba(29,162,189,1) 51%, rgba(2,0,36,1) 85%);
 }

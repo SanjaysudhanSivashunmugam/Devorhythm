@@ -24,7 +24,7 @@ function Navbar() {
     return (
         <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg  bg-white text-black shadow-lg"
                 >
-            <div className="container mx-auto relative text-sm lg:px-24 px-10">
+            <div className="container mx-auto relative text-sm lg:px-24 px-4">
                 <div className="flex justify-between items-center">
                     <div className="flex-item-center flex-shrink-0">
                         <h1 className="text-3xl font-bold text-black">Devo<span className="text-white bg-black">rhythm</span></h1>

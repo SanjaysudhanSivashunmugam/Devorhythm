@@ -10,8 +10,8 @@ function Hero() {
         },
     };
     return (
-        <div className="container mx-auto px-10 lg:px-24 bg1" style={styles.background} id="hero">
-            <div className="flex flex-col pt-20 items-center px-10 pb-10">
+        <div className="container mx-auto lg:px-24 bg1" style={styles.background} id="hero">
+            <div className="flex flex-col pt-20 items-center px-5 pb-10">
                 <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide font-semibold">
                     A Virtual Classroom for the GenZ
                 </h1>

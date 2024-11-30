@@ -4,7 +4,7 @@ function Footer() {
 
 
     return (
-        <div className="container mx-auto lg:px-24 px-10 mt-10 bg-[#202738] text-white">
+        <div className="container mx-auto lg:px-24 px-5  bg-[#202738] text-white">
         <div className="lg:flex mb-5 pt-10">
             <div className="w-full lg:w-2/3">
                 <a href="" className="mb-12">

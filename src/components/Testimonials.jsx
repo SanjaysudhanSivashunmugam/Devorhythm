@@ -3,7 +3,7 @@ import dp from "../assets/dp.png"
 
 function Testimonials(){
     return (
-        <div className="container mx-auto lg:px-24 px-10 bg-[#f8f8f8] text-black pb-10" id="test">
+        <div className="container mx-auto lg:px-24 px-5 bg-[#f8f8f8] text-black pb-10" id="test">
             <h1 className="text-center text-3xl lg:text-6xl font-semibold mb-10 pt-10">What People are saying</h1>
             <div className=" flex flex-wrap w-full justify-between">
             

@@ -2,7 +2,7 @@ import { GraduationCap, Gamepad2, Radio, FlaskConical, BrainCircuit, Languages }
 function Card(props) {
 
     return (
-        <div className="px-0 lg:px-6 py-6 lg:py-10 w-full lg:w-1/3">
+        <div className="px-6 py-6 lg:py-10 w-[90%] lg:w-[31%] mb-6 rounded-3xl bg-white ">
             <div className="flex space-x-6 mb-3">
                 {
                     props.i === "1" ? (

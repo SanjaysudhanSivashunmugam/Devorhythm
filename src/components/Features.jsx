@@ -3,12 +3,12 @@ import Card from "./card";
 
 function Features(){
     return(
-        <div className="container mx-auto px-6 mt-6 lg:mt-14 lg:px-24 min-h-[700px]" id="fea">
+        <div className="container mx-auto px-6 pt-8 lg:px-24 min-h-[700px] bg-[#f8f8f8] text-black" id="fea">
             <div className="text-center">
-                <span className="uppercase lg:text-2xl text-xl ">Features</span>
-                <h2 className="text-xl  lg:text-6xl mt-6 lg:mt-14 tracking-wide">Discover and learn cutting-edge technologies online from the comfort of your home</h2>
+                <span className="uppercase lg:text-2xl text-xl">Features</span>
+                <h2 className="text-xl  lg:text-6xl mt-6 tracking-wide">Discover and learn cutting-edge technologies online from the comfort of your home</h2>
             </div>
-            <div className="flex flex-wrap mt-6 lg:mt-14 justify-between ">
+            <div className="flex flex-wrap mt-6 lg:mt-14 justify-center lg:justify-between">
             <Card i="1"  heading="Personalized Learning Paths" para="Provide tailored course recommendations and content based on the user’s learning style, pace, and goals, ensuring a customized educational journey."/>
             <Card i="2"  heading="Gamification" para="Incorporate elements like badges, leaderboards, and rewards to boost engagement and motivation among learners while making learning fun and interactive."/>
             <Card i="3"  heading="Live Classes and Webinars" para="Offer real-time interaction with educators through live sessions, enabling students to ask questions, engage in discussions, and clarify doubts instantly."/>

@@ -1,9 +1,16 @@
 import video_1 from "../assets/video_1.mp4";
 import video_2 from "../assets/video_2.mp4";
+import image from "../assets/hero-ban.jpg";
 
 function Hero() {
+    const styles ={
+        background:{
+    backgroundImage: `url(${image})`,
+    backgroundSize: 'cover', 
+        },
+    };
     return (
-        <div className="container mx-auto px-10 lg:px-24 bg1" id="hero">
+        <div className="container mx-auto px-10 lg:px-24 bg1" style={styles.background} id="hero">
             <div className="flex flex-col pt-20 items-center px-10 pb-10">
                 <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide font-semibold">
                     A Virtual Classroom for the GenZ
